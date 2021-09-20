@@ -5,5 +5,6 @@
   "trailingComma": "es5",
   "tabWidth": 2,
   "semi": false,
-  "jsxSingleQuote": true
+  "jsxSingleQuote": true,
+  "endOfLine": "lf"
 }
