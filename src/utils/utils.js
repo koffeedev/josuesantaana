@@ -4,5 +4,5 @@ export const pageTitles = {
   CONTACT: 'Contacto - Josué Santa Ana',
 }
 
-export const collegeLogo =
+export const schoolLogo =
   'https://res.cloudinary.com/dqaav1s3t/image/upload/v1634233412/JosueSantaAna/logoColegio_xfvpft.png'
