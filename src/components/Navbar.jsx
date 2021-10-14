@@ -16,19 +16,19 @@ const Navbar = ({ selectedKey }) => {
 
   return (
     <Row>
-      <Col xl={1} lg={1} md={1} sm={1} xs={1} style={styles.centerVertical}>
+      <Col xl={1} lg={1} md={1} sm={4} xs={4} style={styles.navCol}>
         <Link to={routes.HOME}>
-          <Image src={schoolLogo} height={55} preview={false} />
+          <Image src={schoolLogo} height={64} preview={false} />
         </Link>
       </Col>
-      <Col xl={11} lg={11} md={11} sm={19} xs={19} style={styles.centerVertical}>
-        <Typography.Title level={2}>
+      <Col xl={11} lg={11} md={11} sm={18} xs={18} style={styles.navCol}>
+        <Typography.Title level={2} style={styles.title}>
           <Link to={routes.HOME} style={styles.title}>
             Colegio Josué
           </Link>
         </Typography.Title>
       </Col>
-      <Col xl={12} lg={12} md={12} sm={4} xs={4}>
+      <Col xl={12} lg={12} md={12} sm={2} xs={2}>
         <Menu
           theme='dark'
           mode='horizontal'
