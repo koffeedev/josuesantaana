@@ -13,4 +13,21 @@ export const styles = {
   navCol: {
     height: '64px',
   },
+  textCenter: {
+    textAlign: 'center',
+  },
+  section: {
+    marginTop: '3rem',
+  },
+  textSectionTitle: {
+    textAlign: 'center',
+    marginTop: '3rem',
+  },
+  sectionVh: {
+    minHeight: '87vh',
+    display: 'grid',
+    width: '100%',
+    gridTemplateColumns: '1fr',
+    alignContent: 'center',
+  },
 }
