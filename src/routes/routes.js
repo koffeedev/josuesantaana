@@ -1,5 +1,5 @@
 export const routes = {
   HOME: '/inicio',
-  ADMISIONS: '/nuevoingreso',
+  ADMISSIONS: '/nuevoingreso',
   CONTACT: '/contacto',
 }
