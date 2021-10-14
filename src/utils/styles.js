@@ -10,11 +10,6 @@ export const styles = {
   justifyEnd: {
     justifyContent: 'end',
   },
-  header: {
-    position: 'fixed',
-    zIndex: 1,
-    width: '100%',
-  },
   navCol: {
     height: '64px',
   },
