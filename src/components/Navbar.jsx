@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Menu, Row, Col, Typography, Image } from 'antd'
 import { Link } from 'react-router-dom'
 import { HomeOutlined, UserOutlined, MailOutlined } from '@ant-design/icons'
@@ -13,6 +13,10 @@ const Navbar = ({ selectedKey }) => {
   const handleActive = (key) => {
     setActive(key)
   }
+
+  useEffect(() => {
+    setActive(selectedKey)
+  }, [selectedKey])
 
   return (
     <Row>
@@ -33,7 +37,7 @@ const Navbar = ({ selectedKey }) => {
           theme='dark'
           mode='horizontal'
           onClick={() => handleActive(selectedKey)}
-          defaultSelectedKeys={active}
+          selectedKeys={active}
           style={styles.justifyEnd}
         >
           <Menu.Item key={routes.HOME} icon={<HomeOutlined />}>
